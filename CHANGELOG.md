@@ -1,5 +1,16 @@
 # changesets
 
+## 1.1.0
+
+### Minor Changes
+
+- [`7a3f17d`](https://github.com/pranesh239/changesets-test/commit/7a3f17dfdea5c57caf172ff0e33cdee72bc7d08a) Thanks [@pranesh239](https://github.com/pranesh239)! - ### Request fields (z-ai/glm-5.3-flash)
+  
+  - model: string (required) — `"z-ai/glm-5.3-flash"`
+  - messages: array (required) — ordered conversation messages with `role` and `content`
+  - stream: boolean (optional) — return Server-Sent Events as tokens are generated
+  - frequency_penalty: optional — accepted by this model; see the API reference for its value shape
+
 ## 1.0.0
 
 ### Major Changes
